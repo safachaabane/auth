@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NaviBar = () => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="primary" variant="dark">
               
     <Navbar.Brand href="#home">Users</Navbar.Brand>
     <Nav className="mr-auto">
@@ -14,8 +14,8 @@ const NaviBar = () => {
  
     
       <div style={{marginLeft:'70%'}}>
-      <Button variant="outline-info"><Link to="/registre">Registre</Link></Button>
-      <Button variant="outline-info"><Link to="/login">Login</Link></Button>
+      <Button variant="outline-info" className="btn btn-light" ><Link to="/registre">Registre</Link></Button>
+      <Button variant="outline-info" className="btn btn-light" ><Link to="/login">Login</Link></Button>
     </div>
   </Navbar>
         </div>
